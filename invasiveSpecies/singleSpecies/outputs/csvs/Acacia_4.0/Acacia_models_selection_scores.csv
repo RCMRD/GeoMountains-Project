@@ -1,0 +1,4 @@
+"full.name","PA","run","algo","metric.eval","cutoff","sensitivity","specificity","calibration","validation","evaluation"
+"Acacia_PA1_RUN1_RF","PA1","RUN1","RF","KAPPA",552,100,98.75,0.982,0.706,NA
+"Acacia_PA1_RUN1_RF","PA1","RUN1","RF","TSS",552,100,98.75,0.988,0.677,NA
+"Acacia_PA1_RUN1_RF","PA1","RUN1","RF","ROC",556,100,98.75,0.998,0.941,NA
