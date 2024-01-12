@@ -1,10 +1,18 @@
+## Author: Anita Carolyne Orera
+## Date: 2023-11-30
+## Pre-requisites: Ensure you have a data folder, an outputs folder, a scripts folder and an empty working directory
+## Required data are available at:
+## https://github.com/RCMRD/GeoMountains-Project/tree/b4b8bd8958a415903983d7b2bccdc59ebba2587f/invasiveSpecies/singleSpecies/data
+
+
+
 # install.packages("sf")
 # install.packages("dplyr")
 
 library(sf)
 
 # Set your working directory to the relevant folder
-setwd("C:/Users/USER/Desktop/Anita2023/speciesModeling/changesSingleSpecies/geoMountains")
+setwd("path/to/geoMountains")
 
 # Specify the path to the AOI shapefile
 aoiPath <- "data/conservancyArea"
