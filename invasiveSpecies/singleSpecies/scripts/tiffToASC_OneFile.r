@@ -1,6 +1,6 @@
 ## Author: Anita Carolyne Orera
 ## Date: 2023-11-01
-## Pre-requisites: Ensure you have a data folder, an outputs folder, a scripts folder and an empty working directory i.e. "workdir_3"
+## Pre-requisites: Ensure you have a data folder, an outputs folder, a scripts folder and an empty working directory
 ## Required data are available at:
 ## https://github.com/RCMRD/GeoMountains-Project/tree/b4b8bd8958a415903983d7b2bccdc59ebba2587f/invasiveSpecies/singleSpecies/data
 
