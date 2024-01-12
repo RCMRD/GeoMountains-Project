@@ -1,3 +1,11 @@
+## Author: Anita Carolyne Orera
+## Date: 2023-11-01
+## Pre-requisites: Ensure you have a data folder, an outputs folder, a scripts folder and an empty working directory i.e. "workdir_3"
+## Required data are available at:
+## https://github.com/RCMRD/GeoMountains-Project/tree/b4b8bd8958a415903983d7b2bccdc59ebba2587f/invasiveSpecies/singleSpecies/data
+
+
+
 # install.packages("raster")
 # install.packages("sf")
 # install.packages("lwgeom")
@@ -9,7 +17,7 @@ library(sf)
 library(mapview)
 
 # Set your working directory to the folder containing the TIFF files
-setwd("C:/Users/USER/Desktop/Anita2023/speciesModeling/changesSingleSpecies/geoMountains")
+setwd("path/to/geoMountains")
 
 # Specify the path to your shapefile for clipping
 shapefile_path <- "data/conservancyArea"
