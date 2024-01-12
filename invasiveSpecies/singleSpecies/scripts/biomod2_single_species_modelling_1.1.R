@@ -1,10 +1,13 @@
-## biomod2 video: Single species modelling ----
+## Author: Anita Carolyne Orera
+## Date: 2024-01-07
+## Adapted from Damien Georges single species modelling dated 2020-05-03
+## Pre-requisites: Ensure you have a data folder, an outputs folder, a scripts folder and an empty working directory i.e. "workdir_1"
 ## Required data are available at:
-## https://github.com/biomodhub/biomod2-tutorial-material/raw/master/biomod2_video_single_species_modelling.zip
+## https://github.com/RCMRD/GeoMountains-Project/tree/b4b8bd8958a415903983d7b2bccdc59ebba2587f/invasiveSpecies/singleSpecies/data
 
 ## setting up the environment ----
 getwd()
-setwd('C:/Users/USER/Desktop/Anita2023/speciesModeling/changesSingleSpecies/geoMountains/workdir')
+setwd('path/to/workdir_1')
 
 
 #********************************************************************************************************************************************************************
@@ -52,7 +55,7 @@ library(sf)
 Acacia_occ <- read.csv('../data/acacia.csv')
 summary(Acacia_occ)
 # Specify the path to the AOI shapefile
-aoiPath <- c("C:/Users/USER/Desktop/Anita2023/speciesModeling/changesSingleSpecies/geoMountains/data/conservancyArea")
+aoiPath <- c("../data/conservancyArea")
 # Read the shapefile using the sf package
 conservancyArea <- st_read(aoiPath)
 
