@@ -1,10 +1,13 @@
-## author: Anita Carolyne Orera
-## adapted from: Damien Georges biomod 2 multi species modelling
-## date: 2024-01-01
+## Author: Anita Carolyne Orera
+## Date: 2024-01-14
+## Adapted from Damien Georges multi species modelling
+## Pre-requisites: Ensure you have a data folder, an outputs folder, a scripts folder and an empty working directory i.e. "workdir_1"
+## Required data are available at:
+## https://github.com/RCMRD/GeoMountains-Project/tree/16d6709deb9f9b845043735d8218a153750ec4c7/invasiveSpecies/multiSpecies/data
 
-
-## Setup environment ----
-setwd('C:/Users/USER/Desktop/geoMountains/multiSpecies/workdir_1')
+## setting up the environment ----
+getwd()
+setwd('path/to/workdir_1')
 
 
 ## Load the required packages
