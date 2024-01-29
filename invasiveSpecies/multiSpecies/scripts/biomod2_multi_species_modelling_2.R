@@ -1,7 +1,7 @@
 ## Author: Anita Carolyne Orera
 ## Date: 2024-01-17
 ## Adapted from Damien Georges multi species modelling
-## Pre-requisites: Ensure you have a data folder, an outputs folder, a scripts folder and an empty working directory i.e. "workdir_1"
+## Pre-requisites: Ensure you have a data folder, an outputs folder, a scripts folder and an empty working directory i.e. "workdir_2"
 ## Required data are available at:
 ## https://github.com/RCMRD/GeoMountains-Project/tree/16d6709deb9f9b845043735d8218a153750ec4c7/invasiveSpecies/multiSpecies/data
 
